@@ -2,7 +2,7 @@ import axios from 'axios'
 import { clearToken, getToken } from '../utils/auth'
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || '/api',
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://phd-backend-tkru.onrender.com/api',
   timeout: 20000,
 })
 
